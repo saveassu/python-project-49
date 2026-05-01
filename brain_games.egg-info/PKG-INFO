@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: brain-games
+Version: 0.1.0
+Summary: Brain Games project
+Author-email: Andrii Kaliuzhnyi <kaluznyjs43@gmail.com>
+Requires-Dist: prompt>=0.4.1
