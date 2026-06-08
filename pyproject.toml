@@ -6,12 +6,28 @@ authors = [
     { name = "Andrii Kaliuzhnyi", email = "kaluznyjs43@gmail.com" }
 ]
 dependencies = [
+    "asciinema>=2.4.0",
     "prompt>=0.4.1",
 ]
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.14",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

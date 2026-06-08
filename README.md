@@ -9,3 +9,16 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=saveassu_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=saveassu_python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=saveassu_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=saveassu_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=saveassu_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=saveassu_python-project-49)
+
+### brain_even
+
+[![asciicast](https://asciinema.org/a/xLQlyALanq2gui1R.svg)](https://asciinema.org/a/xLQlyALanq2gui1R)
+
+### brain_calc
+
+[![asciicast](https://asciinema.org/a/OX0ErCxxb4SlzYYs.svg)](https://asciinema.org/a/OX0ErCxxb4SlzYYs)
+
+### brain_gcd
+
+[![asciinema.org/a/ZDqiMZjMSOeXJXCB.svg)](https://asciinema.org/a/ZDqiMZjMSOeXJXCB)
+

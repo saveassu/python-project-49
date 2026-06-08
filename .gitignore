@@ -1,0 +1,31 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Egg info
+*.egg-info/
+dist/
+build/
+eggs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Asciinema записи
+*.cast
+
+# Логи
+*.log
