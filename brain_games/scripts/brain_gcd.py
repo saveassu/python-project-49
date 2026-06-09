@@ -10,7 +10,7 @@ def generate_question():
     correct_answer = math.gcd(num1, num2)
 
 
-    question = num1 , num2
+    question = f"{num1} {num2}"
 
     return question, correct_answer
 
@@ -27,7 +27,7 @@ def main():
 
         question, correct_answer = generate_question()
 
-        print(f"Question: {question}")
+        print(f"Question: {num1} {num2}")
         user_answer = input("Your answer: ")
         if int(user_answer) == correct_answer:
             print("Correct!")
