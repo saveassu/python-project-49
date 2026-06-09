@@ -20,5 +20,8 @@
 
 ### brain_gcd
 
-[![asciinema.org/a/ZDqiMZjMSOeXJXCB.svg)](https://asciinema.org/a/ZDqiMZjMSOeXJXCB)
+[![asciicast](https://asciinema.org/a/B6vpHXIfoCp4CnqC.svg)](https://asciinema.org/a/B6vpHXIfoCp4CnqC)
 
+### brain_prime
+
+[![asciicast](https://asciinema.org/a/nyLuxefPo4vIhAh9.svg)](https://asciinema.org/a/nyLuxefPo4vIhAh9)
