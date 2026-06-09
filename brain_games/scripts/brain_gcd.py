@@ -6,10 +6,7 @@ def generate_question():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
 
-
     correct_answer = math.gcd(num1, num2)
-
-
     question = f"{num1} {num2}"
 
     return question, correct_answer
@@ -24,10 +21,9 @@ def main():
     correct_count = 0
 
     while correct_count < 3:
-
         question, correct_answer = generate_question()
 
-        print(f"Question: {num1} {num2}")
+        print(f"Question: {question}")
         user_answer = input("Your answer: ")
         if int(user_answer) == correct_answer:
             print("Correct!")
