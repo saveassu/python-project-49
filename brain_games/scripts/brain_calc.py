@@ -1,5 +1,6 @@
 import random
 
+
 def question():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
@@ -13,13 +14,18 @@ def question():
         answer = a * b
 
     return f"{a} {op} {b}", answer
+
+
 def main():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
 
+    # Запускаем игру и передаем имя
+    game_calc(name)
 
-def game_calc():
+
+def game_calc(name):
     print("What is the result of the expression?")
 
     correct_answers = 0
@@ -38,10 +44,11 @@ def game_calc():
                 f"'{user_answer}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'."
             )
-            print("Let's try again!")
+            print(f"Let's try again, {name}!")
             return
 
-    print("Congratulations!")
+    print(f"Congratulations, {name}!")
 
-main()
-game_calc()
+
+if __name__ == "__main__":
+    main()
